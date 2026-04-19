@@ -12,7 +12,7 @@ L2 = list(range(100))
 L3 = ('123', 'abc', 'def', '321')
 # print(L3[0:2])
 L4 = '123abcdef321'
-# print(L4[0:1])
+print(L4[::-1])
 #test
 def trim(s):
     if s[:1]==' ':
