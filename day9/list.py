@@ -13,6 +13,9 @@ L3 = ('123', 'abc', 'def', '321')
 # print(L3[0:2])
 L4 = '123abcdef321'
 print(L4[::-1])
+L5 = '1_2_3_4_5'
+print(list(L5[::2]))
+print([s for s in L5 if s!='_' ])
 #test
 def trim(s):
     if s[:1]==' ':
